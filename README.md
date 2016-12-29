@@ -4,6 +4,7 @@ This is the R package containing the code and lecture materials for the class St
 source("http://bioconductor.org/biocLite.R")
 biocLite("devtools")    # only if devtools not yet installed
 biocLite("jtleek/genstats",ref="gh-pages")
+
 You can see the list of lecture notes and open them using the vignette command:
 
 vignette(package="genstats")
@@ -11,5 +12,7 @@ vignette("01_13_clustering")
 For more information check out:
 
 Lecture Notes: http://jtleek.com/genstats_site
+
 Course: Statistics for Genomic Data Science
+
 Specialization: Genomic Data Science Specialization
